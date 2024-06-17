@@ -1,0 +1,59 @@
+
+.BASE{
+	padding: 15px;
+	margin-top: 40px;
+	margin-left:250px;
+	margin-right: 500px;
+	border-radius: 10px;
+	background:#f2f2f2;
+	border-color: gray;
+	height: auto;
+	width: 1000px;
+}
+
+.Ad-H1{
+	font-size: 50px ;
+	color: gray;
+	text-align: center;
+	margin-bottom: 10px;
+	padding: 20px;
+}
+
+
+td , th{
+	border: 1px solid darkgray;
+	padding: 12px;
+
+}
+
+table{
+	border-collapse: collapse;
+	padding: 10px;
+	font-size: large;
+	margin-left: 10px;
+}
+
+
+.ADD {
+    text-align: center;
+    margin-top: 20px;
+    padding-bottom: 50px;
+  }
+  
+.ADD input[type="submit"] {
+    background-color: #999999;
+    color: #fff;
+    border: none;
+    padding: 8px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 10px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease;
+  }
+  
+.ADD input[type="submit"]:hover {
+    background-color: lightgray;
+  }
+

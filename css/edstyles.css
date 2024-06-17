@@ -1,0 +1,74 @@
+h2 {
+  text-align: center;
+  color: #0099cc;
+  margin-top: 60px;
+}
+
+.form {
+  border-style: solid;
+  margin-top: 30px;
+
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  margin-bottom: 30px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="email"],
+input[type="tel"],
+textarea {
+  width: 100%;
+  padding: 8px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+select {
+  width: 100%;
+  padding: 8px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  background-color: #fff;
+}
+
+input[type="checkbox"] {
+  margin-right: 15px;
+  float: left;
+}
+
+.button {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 60px;
+}
+
+
+.button input[type="submit"],
+.button input[type="reset"] {
+  background-color: #0099cc;
+  color: #fff;
+  border: none;
+  padding: 8px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 3px;
+  text-transform: uppercase;
+  transition: background-color 0.3s ease;
+}
+
+.button input[type="submit"]:hover,
+.button input[type="reset"]:hover {
+  background-color: #0082b3;
+}

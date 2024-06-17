@@ -1,0 +1,80 @@
+h2 {
+  text-align: center;
+  color: #527a7a;
+  margin-top: 30px;
+  font-size: 50px;
+  padding: 16px;
+
+}
+
+.formstyle {
+  border-style: solid;
+  color:#4d4d4d;
+  margin-top: 30px;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #e0ebeb;
+  border-radius: 15px;
+  margin-bottom: 30px;
+  font-family: Geneva, Verdana, sans-serif;
+
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: red;
+  border-radius: 10px;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="email"],
+input[type="tel"],
+textarea {
+  width: 100%;
+  padding: 8px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+select {
+  width: 100%;
+  padding: 8px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  background-color: #fff;
+}
+
+input[type="checkbox"] {
+  margin-right: 15px;
+  float: left;
+}
+
+.button {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 60px;
+}
+
+
+.button input[type="submit"],
+.button input[type="reset"] {
+  background-color: #3d5c5c;
+  color: white;
+  border: none;
+  padding: 8px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 3px;
+  text-transform: uppercase;
+  transition: background-color 0.3s ease;
+}
+
+.button input[type="submit"]:hover,
+.button input[type="reset"]:hover {
+  background-color: #85adad;
+}

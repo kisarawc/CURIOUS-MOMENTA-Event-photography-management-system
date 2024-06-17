@@ -1,0 +1,112 @@
+
+  .wrapper {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+  }
+  
+  h2 {
+    padding-top: 10px;
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+  }
+  
+  h3 {
+    font-size: 18px;
+    color: #666;
+    margin: 5px 0;
+  }
+  
+  .method-button {
+    text-align: right;
+    padding-top: 20px;
+    
+  }
+  
+  .method-button input[type="button"] ,
+  .method-button input[type="submit"]
+  {
+    background-color: #0099cc;
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    font-size: 14px;
+    cursor: pointer;
+    margin-left: 10px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    
+  }
+  .method-button input[type="submit"]{
+    margin-top: 10px;
+    background-color: #cc0000a3;
+
+  }
+
+  
+  .method-button input[type="button"]:hover {
+    background-color: #0082b3;
+    
+  }
+  
+
+  .delete {
+    text-align: center;
+    margin-top: 20px;
+    padding-bottom: 50px;
+  }
+  
+  .delete input[type="submit"] {
+    background-color: #cc0000;
+    color: #fff;
+    border: none;
+    padding: 8px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 10px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease;
+  }
+  
+  .delete input[type="submit"]:hover {
+    background-color: #b30000;
+  }
+  
+
+  .wrapper hr {
+    border: none;
+    border-top: 1px solid #ddd;
+    margin-top: 20px;
+  }
+  
+  .personal-information {
+    margin-bottom: 30px;
+  }
+  
+  .personal-information h2 {
+    margin-top: 0;
+    border-bottom: 2px solid #0099cc;
+    padding-bottom: 10px;
+  }
+  
+  .personal-information h3 {
+    font-weight: normal;
+  }
+  
+
+  .delete form,
+  form[action="account.php"] {
+    display: inline-block;
+  }
+  .personal-information p{
+    font-weight: bold;
+  }
+  
+
+  

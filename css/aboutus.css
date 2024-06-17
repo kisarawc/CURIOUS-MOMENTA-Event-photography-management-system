@@ -1,0 +1,29 @@
+
+.container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #fff;
+           }
+
+h3 {
+      color: #555;
+      font-size: 28px;
+      margin-bottom: 10px;
+      text-align: center;
+      color: darkcyan;
+   }
+
+ p {
+      line-height: 1.6;
+      margin-bottom: 20px;
+   }
+
+ol {
+      margin-left: 20px;
+      margin-bottom: 20px;
+    }
+
+li {
+      margin-bottom: 5px;
+    }

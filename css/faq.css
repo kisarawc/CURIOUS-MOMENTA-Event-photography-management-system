@@ -1,0 +1,248 @@
+body {
+    font-family:  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:#585151;
+    font-size: large;
+  }
+
+  .clearfix{overflow:auto;}
+
+  .logo{
+    width: 500px;
+    height: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;	  
+  }
+  
+  .UP{
+    margin:auto;
+    width:auto;
+  }
+  .top-bar{
+    width:auto;
+    background:white;
+  }
+  .top-bar-link{
+    float:left;
+  }
+  .top-bar-links ul{
+    margin-top: 20px;
+    list-style:none;
+  }
+  .top-bar-links ul li{
+    
+    padding:0 25px;
+    display: inline-block;
+    margin-left: 12px;
+    border-right:1px solid darkgray;
+  }
+  .top-bar-links ul li:last-child{
+    border:none;
+    padding:0 2px;
+  }
+  .top-bar-links ul li a{
+    color: gray;
+    margin-left: 15px;
+    font-size: large;
+  
+  }
+  .top-bar-links ul li a:hover{
+    background-color: whitesmoke;
+  
+  }
+  .sit-search{
+    padding-right:20px ;
+    float:right;
+    margin: 0px;
+    background: white;
+    border-radius: 0 10px;
+  
+  }
+  .sit-search input{
+    margin-top: 2px;
+    border: 0px;
+    color: gray;
+  }
+  .sit-search button{
+    border-radius: 30px;
+    padding:10px;
+    border: none;
+    margin-right: 10px;
+    color: #62676f;
+  
+  }
+  .sit-search button:hover{
+    background: gray;
+  
+  }
+  
+  nav{
+    background: white;
+    text-align: center;
+  }
+  nav ul{
+    list-style: none;
+  }
+  nav ul li{
+    display: inline;
+  }
+  nav ul li a{
+    font-size: large;
+    color: gray;
+    margin-top: 1px;
+    margin-right:40px;
+    margin-bottom: 10px;
+    margin-left: 20px; 
+    display: inline-block;
+  
+  }
+  nav ul li a:hover:not(.active) {
+    background: whitesmoke;
+    
+  }
+
+.Text {
+
+  font-size: large;
+  font-family:  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-align:center;
+  color:#a1a1a1;
+  width:auto;
+  height:auto;
+  background-color: white;
+} 
+
+#HD {
+  font-family: Georgia, serif;
+  font-size: x-large;
+  text-align: center;
+  color: rgb(142, 141, 141);
+
+}
+
+.LOG{
+  background-position:absolute;
+  top : 200px;
+  float:right;
+}
+
+.search-container {
+  display: flex;
+  margin:auto;
+  
+
+}
+
+.search-container button {
+  top:750px;
+  padding: 7px 12px;
+  background-color:#c0c0c0;
+
+  color: white;
+  border: none;
+  border-radius: 200px;
+  cursor: pointer;
+  
+}
+
+.search-container button:hover {
+  background-color: #241e1e;
+}
+
+  
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .faq {
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+            padding: 20px;
+        }
+        .faq h2 {
+            font-size: 18px;
+            margin: 0 0 10px;
+        }
+        .faq p {
+            margin: 0 0 10px;
+        }
+
+        .footer {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+  }
+  a:link 
+  { text-decoration: none;}
+
+  .FT-Up{
+    width:auto;
+    background: #8B8B8B;
+    height: 200px;
+  }
+  .L-col{
+    width:300px;
+    float:left;
+    margin-left: 31.5px;
+  
+  }
+  .L-col h2{
+    font-size: 24px;
+    margin-top: 63px;
+    margin-left: 120px;
+    color: whitesmoke;
+    
+  }
+  .L-col a{
+     font-size: 15px;
+     margin-left: 45px;
+     margin-top:13px;
+     color: white;
+     
+  }
+  .L-col img{
+    margin-top: 40px;
+    margin-left: 230px;
+  }
+  #Number-align{
+    margin-left: 115px;
+    letter-spacing: 2px;
+    font-family: 'Times New Roman', serif;
+  }	 
+  #Mail-align{
+    letter-spacing: 2px;
+    font-family: 'Times New Roman', serif;
+  
+  }
+  .L-col h3{
+    font-size: 18px;
+    margin-top: 80px;
+    margin-left: 540px;
+    color: whitesmoke;
+  }
+  .FT-Down{
+      font-size: smaller;
+      text-align: center;
+      padding: 13px;
+  
+  }
+  .social-Icon{
+    
+    margin-top: 110px;
+    margin-right: 89px;
+    float: right;
+  }
+  .social-Icon ul{
+    list-style: none;
+  }
+  .social-Icon ul li{
+    display:inline;
+  }
+  .social-Icon ul li a{
+    
+     margin-left: 8px;
+     color: white;
+  }

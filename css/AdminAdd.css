@@ -1,0 +1,65 @@
+.Fstyle{
+  border-style: solid;
+  color:#4d4d4d;
+  margin-top: 100px;
+  max-width: 500px;
+  margin: 40 auto;
+  padding: 40px;
+  background-color: #e0ebeb;
+  border-radius: 15px;
+  margin-bottom: 30px;
+  padding-top: 20px;
+  font-family: Geneva, Verdana, sans-serif;
+
+}
+
+.H2 {
+  text-align: center;
+  font-size:xx-large ;
+  margin-bottom: 30px;
+}
+
+.form-group {
+
+  width: 80%;
+  margin-left: 10%;
+
+  
+}
+
+label {
+  display: block;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="tel"],
+input[type="date"],
+
+select{
+  width: 106%;
+  padding: 10px;
+  border: 1px solid #ccc;
+
+}
+
+input[type="submit"] {
+  width: px;
+}
+.button{
+
+    font-weight: bolder;
+    width: 40%;
+    margin-top: 10px;
+    padding: 10px;
+    background-color:  #3d5c5c;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-left: 120px;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #85adad;
+  }

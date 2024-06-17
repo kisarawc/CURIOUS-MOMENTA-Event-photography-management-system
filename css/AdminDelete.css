@@ -1,0 +1,24 @@
+.DelAcc{
+	
+	border-radius: 35px;
+	background-color: whitesmoke;
+	width: 300px;
+	height: 100px;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 25px;
+	margin-top: 30px;
+}
+.LBL{
+	font-size: large;
+	color: red;
+}
+.DelButton input[type="submit"]{
+
+	margin-top: 30px;
+	background-color:#cc0000;
+	color: #fff;
+}
+.ADD input[type="submit"]:hover {
+    background-color:darkred;
+  }
